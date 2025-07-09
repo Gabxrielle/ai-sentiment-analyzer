@@ -1,40 +1,55 @@
-# AI Sentiment Analyzer 🧠💬
+🧠 AI Sentiment Analyzer
+A simple but powerful sentiment analysis tool built with Python and natural language processing (NLP). It classifies input text as Positive, Negative, or Neutral — great for analyzing customer reviews, tweets, or any user feedback.
 
-This is a simple sentiment analysis project built with Python and natural language processing (NLP). It classifies text inputs as **positive**, **negative**, or **neutral**.
+💡 Features
+✅ Cleans and vectorizes text using NLP techniques
+✅ Trains a Logistic Regression classifier on labeled data
+✅ Evaluates model performance and accuracy
+✅ Predicts the sentiment of new, custom sentences
 
-## 💡 What it does
+🛠️ Technologies Used
+Python 3
 
-- Cleans and vectorizes text data
-- Trains a logistic regression classifier
-- Evaluates model accuracy
-- Predicts the sentiment of new sentences
+Pandas
 
-## 🧰 Technologies Used
+Scikit-learn
 
-- Python
-- Pandas
-- Scikit-learn
-- NLTK
-- Jupyter Notebook
+NLTK
 
-## 📁 Project Files
+Jupyter Notebook
 
-- `sentiment_model.ipynb` – Main notebook with all code
-- `dataset.csv` – Training data with labeled sentences
+📁 Project Structure
+bash
+Copiar
+Editar
+📦 ai-sentiment-analyzer/
+├── sentiment_model.ipynb  # Main notebook with all code
+├── dataset.csv            # Labeled dataset for training
+└── README.md              # Project overview (this file)
+📈 Example Output
+Input:
+"I love working on Python projects!"
 
-## 📈 Example
+Output:
+Sentiment: Positive ✅
 
-Input: `"I love working on Python projects!"`  
-Output: `Positive ✅`
+🚀 How to Run
+Clone this repo or download the files
 
-## 🚀 How to Run
+Open sentiment_model.ipynb in Jupyter Notebook or Google Colab
 
-1. Clone the repository or download the notebook
-2. Open `sentiment_model.ipynb` in Jupyter or [Google Colab](https://colab.research.google.com)
-3. Run all cells and try your own sentence at the end!
+Run all cells
 
-## ✨ Next Steps
+Try your own sentence at the bottom!
 
-- Add deep learning models (e.g., LSTM)
-- Improve data and preprocessing
-- Build a web interface for live predictions
+✨ Next Steps
+🔄 Expand training dataset for more accuracy
+🧹 Improve text cleaning & preprocessing
+🤖 Add deep learning models (e.g., LSTM, BERT)
+🌐 Build a web interface with Streamlit or Flask
+📊 Add visualizations of sentiment distribution
+
+🔗 Let's Connect
+📫 linkedin.com/in/grdrgs
+🌐 github.com/Gabxrielle
+
